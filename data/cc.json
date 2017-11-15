@@ -1,4 +1,6 @@
 {
     "pycc": {},
-    "textcc": {}
+    "textcc": {
+        "{pycc}if": "True:\n    await ctx.send('lol')"
+    }
 }
