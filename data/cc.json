@@ -1,5 +1,7 @@
 {
-    "pycc": {},
+    "pycc": {
+        "ptest": "if True:\n    print('ok')"
+    },
     "textcc": {
         "{pycc}if": "True:\n    await ctx.send('lol')",
         "test": "if True:\n    print('ok')"
